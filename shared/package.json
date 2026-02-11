@@ -1,0 +1,13 @@
+{
+  "name": "@eventra/shared",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    "./types": "./types/index.ts",
+    "./policies": "./policies/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
