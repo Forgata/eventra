@@ -1,0 +1,9 @@
+// root tsconfig.json
+
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/shared" },
+    { "path": "./packages/backend" }
+  ]
+}
