@@ -1,0 +1,12 @@
+{
+  "name": "@eventra/shared",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Forgata",
+  "license": "ISC",
+  "type": "module"
+}
