@@ -8,5 +8,13 @@
   "keywords": [],
   "author": "Forgata",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "main": "./dist/index.ts",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js'",
+      "types": "./dist/index.d.ts"
+    }
+  }
 }
