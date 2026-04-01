@@ -1,6 +1,6 @@
 import type { UserRole } from "../validators/auth.schema.js";
 
-export interface JWTPayload {
+export interface JwtPayload {
   sub: string;
   email: string;
   roles: UserRole[];
