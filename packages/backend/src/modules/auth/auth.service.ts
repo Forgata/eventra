@@ -82,7 +82,7 @@ export const AuthService = {
     const jwtPayload: JwtPayload = {
       sub: user._id.toString(),
       email: user.email,
-      roles: user.roles,
+      roles: [...user.roles] as JwtPayload["roles"],
     };
 
     const [accessToken, refreshToken] = await Promise.all([
@@ -126,7 +126,7 @@ export const AuthService = {
     const jwtPayload: JwtPayload = {
       sub: user._id.toString(),
       email: user.email,
-      roles: user.roles as JwtPayload["roles"],
+      roles: [...user.roles] as JwtPayload["roles"],
     };
 
     const [accessToken, refreshToken] = await Promise.all([
@@ -174,7 +174,7 @@ export const AuthService = {
     const jwtPayload: JwtPayload = {
       sub: user._id.toString(),
       email: user.email,
-      roles: user.roles as JwtPayload["roles"],
+      roles: [...user.roles] as JwtPayload["roles"],
     };
 
     const [accessToken, refreshToken] = await Promise.all([
